@@ -1,4 +1,8 @@
-<h1><%= link_to "#{issue.tracker.name} ##{issue.id}: #{issue.subject}", issue_url %></h1>
+<h1><%= link_to "#{issue.tracker.name} ##{issue.id}: #{issue.subject}",
+        (issue_url.include? ActionController::UrlWriter.default_url_options[:protocol] + "://"+ ActionController::UrlWriter.default_url_options[:host] + "/redmine") ? issue_url :
+issue_url.gsub(ActionController::UrlWriter.default_url_options[:protocol] + "://" + ActionController::UrlWriter.default_url_options[:host],
+        ActionController::UrlWriter.default_url_options[:protocol] + "://" + ActionController::UrlWriter.default_url_options[:host]+"/redmine") %></h1>
+
 
 <ul>
 <li><%=l(:field_author)%>: <%= issue.author %></li>
