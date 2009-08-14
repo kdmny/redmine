@@ -1,0 +1,39 @@
+<h1><%= l(:system_notification)%></h1>
+
+<% labelled_tabular_form_for :system_notification, @system_notification, {:url =>{:action => 'create'}, :html => {:id => 'system_notification'}} do |f|  %>
+
+<div class="box"> 
+  <p>
+    <%= f.select 'time', SystemNotification.times.invert.to_a.sort, :include_blank => true %>
+  </p>
+  <p>
+    <%= system_notification_project_select %>
+  </p>
+  <p>
+    <%= f.text_field 'subject', :size => 80 -%>
+  </p>
+  <p>
+    <%= f.text_area 'body', :class => 'wiki-edit', :rows => 10  -%>
+  </p>
+  <p id="user_list">
+    <%= render :partial => 'users', :object => @system_notification.users %>
+  </p>
+
+</div>
+<%= submit_tag l(:button_send) -%> <input type="reset" value="<%= l(:button_clear) -%>" onclick="$('user_items').innerHTML = '';" />
+
+<% end -%>
+
+<%= observe_field 'system_notification_time',
+:url => { :action => :users_since },
+:update => :user_list,
+      :with => "$('system_notification').serialize()"
+      %>
+
+<%= observe_field 'system_notification_projects',
+:url => { :action => :users_since },
+:update => :user_list,
+      :with => "$('system_notification').serialize()"
+      %>
+
+<%= wikitoolbar_for 'system_notification_body' %>

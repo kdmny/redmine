@@ -1,0 +1,17 @@
+.DS_Store
+.idea
+log/*.log
+tmp/**/*
+config/database.yml
+config/locomotive.yml
+db/*.sqlite3
+db/schema.rb
+.project
+db/test_structure.sql
+nbproject
+*.svg
+*~
+files/*
+config/backup_fu.yml
+config/email.yml
+.irbrc

@@ -1,0 +1,127 @@
+h1. Squeejee theme
+
+A theme for Redmine which is based on a dark but "shiny" color-scheme and which includes a subtle (re)styled project-menu.
+
+h2. Packager, contributor and maintainer
+
+* Mischa The Evil
+
+h2. Initial author
+
+* "Wynn Netherland":http://www.squeejee.com/team.html#wynn_netherland
+
+h2. History
+
+For the complete history of the theme's creation you could see "this forum-thread":http://www.redmine.org/boards/1/topics/2736.
+
+h2. Description
+
+The Squeejee© theme is an updated, packaged release of Wynn Netherland's work for "Squeejee":http://www.squeejee.com's internal Redmine instance. It initially was a heavily modified derivation of the [[ThemeAlternate|alternate theme]] which required Redmine core hacks but is made stand-alone and working without core hacks (by using the core's support for project-menu item styling (r2059)) for this release.
+
+It's looks can be best described as a dark theme with gradient backgrounds, dark-gray and bold links, but all with a "shiny" and "friendly" touch. It reintroduces the project-menu item-icons with the extension that styling of third-party plugins (including selected icons) is supported too.
+Also the overflow to a second line of the project-menu, when using a lot of plugins with menu-items, is handled without disturbing the surrounding layout and elements.
+
+The colour-scheme basically consists of three basic colours: black, grey and white.
+
+It includes:
+* issue-colouring in the issuelist based on issue's priority
+* more sophistically styled "tabs", "tables", etc.
+* support for third-party plugins
+
+h2. Screenshots
+
+|=. *Home*                                                           |=. *Project overview*                                                                                                   |
+| !home-480x360.jpg!:/attachments/????/home-800x600.jpg              | !overview-480x360.jpg!:/attachments/????/overview-800x600.jpg                                                          |
+
+|=. *Project roadmap*                                                |=. *Project issuelist*                                                                                                  |
+| !roadmap-480x360.jpg!:/attachments/????/roadmap-800x600.jpg        | !issuelist-480x360.jpg!:/attachments/????/issuelist-800x600.jpg                                                        |
+
+|=. *Issue*                                                          |=. *Issue journal*                                                                                                      |
+| !issue-480x360.jpg!:/attachments/????/issue-800x600.jpg            | !issue_journal-480x360.jpg!:/attachments/????/issue_journal-800x600.jpg                                                |
+
+|=. *Repository*                                                     |=. *2nd project-menu line + plugin support*                                                                             |
+| !repository-480x360.jpg!:/attachments/????/repository-800x600.jpg  | !2nd_projectmenu_line_and_3pd_support-480x360.jpg!:/attachments/????/2nd_projectmenu_line_and_3pd_support-800x600.jpg  |
+
+h2. Compatibility
+
+h3. Redmine
+
+The theme is compatible with Redmine 0.7.x, 0.8.x and the bleeding-edge in the trunk.
+
+h3. Browsers
+
+This theme is tested and found working (without major showstoppers) on the big-four of browser-engines:
+* Gecko (Mozilla)
+* Presto (Opera)
+* Trident (Internet Explorer)
+* WebKit (Safari/Chrome)
+
+Though, mainly due to some poor browser CSS-implementations (mainly IE), some minor changes can occur.
+
+h2. Conflicts
+
+This theme currently conflicts with the [[PluginCollapse|Collapse plugin]] v.0.1.0. An updated version of the plugin will be delivered soon...
+
+h2. Obtaining the theme
+
+The theme can be downloaded as a packaged release as an attachment of this page or from the upcoming website http://www.evil-dev.net.
+
+h2. Installation
+
+Follow the Redmine theme installation steps at: http://www.redmine.org/wiki/redmine/Themes#Installing-a-theme.
+
+h2. Upgrade
+
+1. Download the latest archive file from this page or from the upcoming http://www.evil-dev.net
+2. Unzip the file to your Redmine into the theme-directory "../public/themes"
+3. Restart your Redmine
+
+h2. Uninstall
+
+1. Remove the directory "squeejee" from the theme-directory "../public/themes"
+2. Restart Redmine
+
+h2. Changelog
+
+This is a limited selection of the changes made to the theme. For the complete changelog see the @CHANGELOG@-file in the Squeejee theme directory.
+
+h3. 0.1.0
+
+* Fixed:  Project-menu icons aren't rendered after Redmine Core r2022
+* Fixed:  Right-aligned columns on version-page have white background instead of being transparent
+* Fixed:  Overflow of the content
+* Fixed:  Issue-journals should be displayed behind the related-revisions block, not below it
+* Fixed:  Issue-journal comment note-icons rendered for all paragraphs instead of the first only (now works on Gecko, Presto and WebKit [Chrome-only])
+* Fixed:  Selected project-menu tabs aren't highlighted any longer after Redmine Core r2022
+* Added:  Specific (project-menu) declarations for third-party plugins (including dedicated icons)
+* Enhanced:  Global link-visibility
+* Enhanced:  Styling of the issue-journals
+* Enhanced:  Bordered-table styles imported from the Alternate-theme (by removing dependency on Alternate completely)
+* Enhanced:  Project-menu overflow-handling when lots of modules (with project-menu items) are enabled on a project
+* Enhanced:  Removed unused images from release (this saves downloading and installing around 1700+ unused image-files)
+* Enhanced:  Removed lots of old code which was for internal purposes (based on core-hacks) only
+* Enhanced:  Cleaned and Documented CSS-styling
+
+h3. 0.0.0
+
+* Initial source by Wynn Netherland as of 20-11-2008
+
+h2. Credits
+
+Thanks goes out to the following people:
+
+* Wynn Netherland, Squeejee (http://www.squeejee.com)
+** Initial author (designer and coder) of the unmodified version of this theme which can be found here: http://github.com/squeejee/redmine/tree/master/public/themes/squeejee
+* Jean-Philippe Lang, Project-manager of Redmine (http://www.redmine.org)
+** For creating and maintaining the Redmine system...
+
+h2. Licensing
+
+This theme is open-source and licensed under the "GNU General Public License v2":http://www.gnu.org/licenses/old-licenses/gpl-2.0.html (GPL). Certain icons are part of the Fugue icon-set (http://www.pinvoke.com) which is released under the "Creative Commons Attribution 3.0 Unported":http://creativecommons.org/licenses/by/3.0 license.
+
+- ©2009, Mischa The Evil (http://www.evil-dev.net)
+- ©2008, Wynn Netherland (http://www.squeejee.com)
+
+h2. Support
+
+If you need help, would like to report a bug or request a new feature you can contact the maintainer at his website (http://www.evil-dev.net).

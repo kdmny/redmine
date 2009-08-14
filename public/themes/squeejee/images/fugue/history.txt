@@ -1,0 +1,125 @@
+Version 1.4.7 (March 11, 2009)
+- Add <edit*>.
+- Add <funnel_disable>.
+- Add <sort_disable>.
+- Add <text_field_select>.
+--------------------------------------------------------------------------------
+Version 1.4.6 (March 1, 2009)
+- Add <balloon_twitter_left>.
+- Add <disc_blue>.
+- Add <flag_disable>.
+- Add <media_player_phone_horizontal>.
+--------------------------------------------------------------------------------
+Version 1.4.5 (February 7, 2009)
+- Add <clear_folder*>.
+- Add <cursor>.
+--------------------------------------------------------------------------------
+Version 1.4.4 (February 2, 2009)
+- Add <arrow_join*>, <arrow_split*> and <arrow_switch*>.
+- Add <compass*>.
+- Update <door_open_in>.
+--------------------------------------------------------------------------------
+Version 1.4.3 (February 1, 2009)
+- Add <application_monitor> and <application_terminal>.
+- Add <balloon_quote>.
+- Rename <clock_fill> to <clock_select>.
+- Update <clock_select>.
+- Add <clock_select_remain>.
+- Add <music_beam*>.
+- Update <safe*>.
+--------------------------------------------------------------------------------
+Version 1.4.2 (January 29, 2009)
+- Add <globe*>.
+--------------------------------------------------------------------------------
+Version 1.4.1 (January 28, 2009)
+- Add <users*>.
+--------------------------------------------------------------------------------
+Version 1.4 (January 28, 2009)
+- Add <arrow_move>, <arrow_return*> and <arrow_turn*>.
+- Add <calendar_select*>.
+- Update <clock_fill>.
+- Add <color_picker_transparent>.
+- Update <layer_select*>, <layers_group> and <layers_ungroup>.
+- Add <layer_transparent>.
+- Add <layout_select*>.
+- Update <map*>.
+- Add <scissors*>.
+- Add <table_select*>.
+- Add <ticket_stub>.
+- Add <user_business_boss> and <user_thief_baldie>.
+- Add <wall_break>.
+--------------------------------------------------------------------------------
+Version 1.3.4 (January 27, 2009)
+- Add <book_open*>.
+- Add <bookmark_book_open>.
+- Add <databases_relation>.
+- Update <magnet*>.
+- Add <tables_relation>.
+--------------------------------------------------------------------------------
+Version 1.3.3 (January 26, 2009)
+- Add <application_blog> and <applications_stack>.
+- Add <layer_select*>, <layer_shape*>, <layers_group> and <layers_ungroup>.
+- Add <map*> and <maps*>.
+- Add <paint_can_color>.
+- Add <pencil_color>.
+- Add <servers*>.
+- Add <sockets*>.
+--------------------------------------------------------------------------------
+Version 1.3.2 (January 23, 2009)
+- Update <bank*>.
+- Update <bookmark_book*>, <bookmark_document*> and <bookmark_folder*>.
+- Update <box*>.
+- Update <calendar*>.
+- Update <clipboard*>.
+- Update <database*> and <databases*>.
+- Add <document_page*>.
+- Update <trophy*>.
+- Update <user_business>.
+- Add <user_green*>, <user_orange*> and <user_thief>.
+--------------------------------------------------------------------------------
+Version 1.3.1 (January 23, 2009)
+- Update <user*>.
+- Add <user_female>.
+--------------------------------------------------------------------------------
+Version 1.3 (January 22, 2009)
+- Add <accordion*>.
+- Add <application_detail>, <application_sidebar_collapse>,
+  <application_sidebar_expand> and <application_split_tile>.
+- Add <control_pause_record*>
+- Add <dashboard*>
+- Add <door_open_*>.
+- Update <folder_horizontal_open> and <folder_open*>.
+- Add <label*>.
+- Add <projection_screen*>.
+- Add <reports*>.
+- Update <ruler*>.
+- Update <sticky_note*> and <sticky_notes*>.
+- Add <television_image>.
+- Add <text_field*>.
+- Add <traffic_light_off>.
+--------------------------------------------------------------------------------
+Version 1.2 (January 11, 2009)
+--------------------------------------------------------------------------------
+Version 1.1 (January 2, 2009)
+--------------------------------------------------------------------------------
+Version 1.0 (October 12, 2008)
+- Initial non-beta release.
+--------------------------------------------------------------------------------
+Version 0.9 (August 4, 2008)
+--------------------------------------------------------------------------------
+Version 0.8 (July 28, 2008)
+--------------------------------------------------------------------------------
+Version 0.7 (July 22, 2008)
+--------------------------------------------------------------------------------
+Version 0.6 (July 14, 2008)
+--------------------------------------------------------------------------------
+Version 0.5 (July 13, 2008)
+--------------------------------------------------------------------------------
+Version 0.4 (July 9, 2008)
+--------------------------------------------------------------------------------
+Version 0.3 (June 29, 2008)
+--------------------------------------------------------------------------------
+Version 0.2 (June 27, 2008)
+--------------------------------------------------------------------------------
+Version 0.1 (June 17, 2008)
+- Initial beta release.
