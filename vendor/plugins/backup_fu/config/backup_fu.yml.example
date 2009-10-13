@@ -1,0 +1,21 @@
+development:
+  # The app_name is used as the backup filename prefix
+  app_name: replace_me
+  ftp_server: --replace me with your ftp server host or ip--
+  username: --replace me with your ftp username--
+  password: --replace me with your ftp password--
+  remote_path: --replace me with the initial path on ftp server--
+
+staging:
+  app_name: replace_me
+  ftp_server: --replace me with your ftp server host or ip--
+  username: --replace me with your ftp username--
+  password: --replace me with your ftp password--
+  remote_path: --replace me with the initial path on ftp server--
+
+production:
+  app_name: replace_me
+  ftp_server: --replace me with your ftp server host or ip--
+  username: --replace me with your ftp username--
+  password: --replace me with your ftp password--
+  remote_path: --replace me with the initial path on ftp server--
