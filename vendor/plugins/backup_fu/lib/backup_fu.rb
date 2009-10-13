@@ -106,12 +106,11 @@ class BackupFu
   
   def backup_static
     dump_static
-    establish_ftp_connection
-    
+    # establish_ftp_connection
     file = final_static_dump_path()
     puts "\nBacking up Static files to FTP server: #{file}\n" if @verbose
-    
-    @ftp.put file
+    ftp file
+    # @ftp.put file
   end
   
   def cleanup
@@ -142,6 +141,19 @@ class BackupFu
   end
   
   private
+  
+  def ftp(file)
+    system "
+    ftp -n -v #{@fu_conf[:ftp_server]} << EOT
+    binary
+    user #{@fu_conf[:username]} #{@fu_conf[:password]}
+    cd #{@fu_conf[:remote_path]}
+    prompt
+    put #{file}
+    bye
+    EOT
+    "
+  end
   
   def establish_ftp_connection
     unless @ftp && !@ftp.closed?
