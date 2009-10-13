@@ -145,10 +145,10 @@ class BackupFu
   def ftp(localfile, remotefile = File.basename(localfile))
     system "
     ftp -n -v #{@fu_conf[:ftp_server]} << EOT
-    binary
     user #{@fu_conf[:username]} #{@fu_conf[:password]}
     cd #{@fu_conf[:remote_path]}
     prompt
+    binary
     put #{localfile} #{remotefile}
     bye
     EOT
